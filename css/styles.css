@@ -1,0 +1,56 @@
+@font-face { 
+    font-family: 'quranic';
+    src: url('../../fonts/quranic.otf');
+}
+@font-face { 
+    font-family: 'adobe';
+    src: url('../../fonts/adobe.otf');
+}
+body {
+	background: #ffffef none repeat scroll 0 0;
+	margin: 0;
+}
+s {
+    font-size: x-small;
+	text-decoration: none;
+}
+#main {
+	direction: rtl;
+    unicode-bidi: bidi-override;
+    font-family: 'quranic', Verdana, sans-serif;
+    font-size: 1.35em;
+    font-weight:600;
+    color: #003100;
+	text-align:justify;
+}
+#surah {
+	width: 100%;
+	background:#003100;
+	height: 2.0em;
+    color: #ffff00;
+	box-shadow: 0 2px 2px #ffffef;
+	display: table;
+	position: fixed;
+	top: 0;
+}
+#surah > div { display: table-row; }
+#surah > div > div { display: table-cell; }
+
+#surah .nowrap { white-space: nowrap; }
+#surah .fill { width: 100%; }
+#surah .center { text-align: center; }
+.fatihah {font-size: 1.55em;text-align: center;}
+.baqarah {font-size: 1.45em;text-align: center;}
+.jarak {margin-top: 2.2em}
+.kiri {background: none;padding: 1px 0.2em 0;font-size: small;}
+.tengah {background: none;}
+.kanan {background: none;padding: 0 0.5em;}
+
+#basmalah {
+	text-align:center;
+}
+#content {
+	margin: 2.5em 0 0;
+	padding: 0 0.5em;
+    color: #003100;
+}
